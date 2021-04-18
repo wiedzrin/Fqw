@@ -1,0 +1,23 @@
+<div class="user-menu">
+  <div class="user-menu-account user-menu-elem">
+    <button class="user-button" mat-button [matMenuTriggerFor]="menu">
+      <img src="../../../assets/images/user-menu/user.png" alt="" width="30px">
+    </button>
+    <mat-menu #menu="matMenu">
+      <div class="account-window">
+        <div class="authorisation">
+          <a href="">Войти</a> | <a href="">Регистрация</a>
+        </div>
+        <br>
+        <div class="personal-info">
+          <p><a href="">Личный кабинет</a></p>
+          <p><a href="">Мои заказы</a></p>
+        </div>
+      </div>
+    </mat-menu>
+  </div>
+
+  <div class="user-menu-basket user-menu-elem">
+    <a href=""><img src="../../../assets/images/user-menu/basket.png" alt="" width="30px"></a>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+.user-menu {
+  display: flex;
+}
+
+.user-menu-elem {
+  margin: 0 10px;
+}
+
+.user-menu-basket {
+  padding-top: 6px;
+}
+
+.user-button {
+  width: 100px;
+  height: 50px;
+}
+
+.account-window {
+  height: 150px;
+  width: 200px;
+}

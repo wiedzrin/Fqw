@@ -1,0 +1,28 @@
+h1 {
+  font-size: 40px;
+  color: white;
+
+  padding-top: 6px;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+
+.header-background {
+  background: #2d2d2d;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  width: 70vw;
+  height: 60px;
+
+  margin: 0 auto;
+  padding-top: 10px;
+}
